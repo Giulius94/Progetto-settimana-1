@@ -1,0 +1,169 @@
+/*Impostazioni generali*/
+
+html {
+    font-size: 1em;
+}
+
+/*Body*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+}
+
+h1, h2, h3 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+    padding-top: 2rem;
+}
+
+button {
+    background-color: #f04c2f;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 150px;
+    margin: 20px;
+}
+/*Header*/
+
+header {
+    background-color: black;
+    padding: 40px;
+}
+
+header img {
+    width: 150px;
+}
+
+/*Article*/
+
+article {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    height: 600px;
+}
+
+article h1 {
+    font-size: 2.5rem;
+    line-height: 1;
+    padding-top: 10rem;
+}
+
+article h1 + p {
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+/*Section*/
+
+section {
+    text-align: center;
+}
+
+section div {
+    text-align: left;
+}
+
+section div img {
+    border-radius: 50%;
+    width: 300px;
+    margin: 2rem;
+}
+
+section p {
+    padding: 0 1rem;
+}
+/*Classi*/
+
+section div .red-container {
+    margin: 0;
+}
+
+.red-container {
+    background-color: red;
+    color: white;
+    width: 100%;
+}
+
+.red-container h3 {
+    color: white;
+    padding-top: 3rem;
+    font-size: 2rem;
+}
+
+.red-container h3+p {
+    font-style: italic;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.red-container p:last-of-type {
+    font-size: 0.8rem;
+    padding-bottom: 2rem;
+}
+
+.foto1 {
+    border: 1px solid #dee1e3;
+    margin: 2rem;
+    border-radius: 5px; 
+}
+
+.foto1 img {
+    border-radius: 0%;
+    margin: 0;
+    width: 100%;
+}
+
+.foto1 h3 {
+    font-size: 1rem;
+}
+
+.foto1 p:last-of-type{
+    padding-bottom: 2rem;
+    font-size: 0.9rem;
+}
+
+.container {
+    text-align: center;
+}
+/*Footer*/
+
+footer {
+    color: #c8e7f0;
+    background-color: #25a2c3;
+    text-align: center;
+}
+
+footer a {
+    color: #c8e7f0;
+}
+
+footer h3 {
+    color: white;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+footer hr {
+    width: 50%;
+}
+
+footer p:last-of-type {
+    font-size: 1rem;
+    padding: 40px
+}
+
+footer a+p {
+    padding-bottom: 1rem;
+}
